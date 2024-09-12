@@ -13,6 +13,15 @@
 		18B611CC2C91E15D00D9036A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B611CB2C91E15D00D9036A /* Assets.xcassets */; };
 		18B611CF2C91E15D00D9036A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B611CE2C91E15D00D9036A /* Preview Assets.xcassets */; };
 		18B611DA2C91E15D00D9036A /* DotaStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611D92C91E15D00D9036A /* DotaStatusTests.swift */; };
+		18B611E52C91E5E000D9036A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611E42C91E5E000D9036A /* SearchView.swift */; };
+		18B611E82C91EAD800D9036A /* DotaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611E72C91EAD800D9036A /* DotaViewModel.swift */; };
+		18B611EB2C91EB5C00D9036A /* DotaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611EA2C91EB5C00D9036A /* DotaResponse.swift */; };
+		18B611ED2C91F03800D9036A /* ListPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611EC2C91F03800D9036A /* ListPlayerView.swift */; };
+		18B611F02C91F48000D9036A /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611EF2C91F47F00D9036A /* PlayerCell.swift */; };
+		18B611F22C9214D500D9036A /* PerfilPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611F12C9214D500D9036A /* PerfilPlayerView.swift */; };
+		18B611F42C9225B900D9036A /* MedalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611F32C9225B900D9036A /* MedalView.swift */; };
+		18B611F62C92280600D9036A /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611F52C92280600D9036A /* MatchesView.swift */; };
+		18B611F82C922C4A00D9036A /* WinRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B611F72C922C4900D9036A /* WinRateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 		18B611D02C91E15D00D9036A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B611D52C91E15D00D9036A /* DotaStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotaStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B611D92C91E15D00D9036A /* DotaStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaStatusTests.swift; sourceTree = "<group>"; };
+		18B611E42C91E5E000D9036A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		18B611E72C91EAD800D9036A /* DotaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaViewModel.swift; sourceTree = "<group>"; };
+		18B611EA2C91EB5C00D9036A /* DotaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaResponse.swift; sourceTree = "<group>"; };
+		18B611EC2C91F03800D9036A /* ListPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlayerView.swift; sourceTree = "<group>"; };
+		18B611EF2C91F47F00D9036A /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		18B611F12C9214D500D9036A /* PerfilPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilPlayerView.swift; sourceTree = "<group>"; };
+		18B611F32C9225B900D9036A /* MedalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedalView.swift; sourceTree = "<group>"; };
+		18B611F52C92280600D9036A /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		18B611F72C922C4900D9036A /* WinRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinRateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,10 @@
 		18B611C22C91E15B00D9036A /* DotaStatus */ = {
 			isa = PBXGroup;
 			children = (
+				18B611EE2C91F45100D9036A /* Components */,
+				18B611E92C91EB2D00D9036A /* Model */,
+				18B611E62C91EAAF00D9036A /* ViewModel */,
+				18B611E32C91E5B600D9036A /* View */,
 				18B611C72C91E15B00D9036A /* DotaStatusApp.swift */,
 				18B611C92C91E15B00D9036A /* ContentView.swift */,
 				18B611CB2C91E15D00D9036A /* Assets.xcassets */,
@@ -109,6 +131,43 @@
 				18B611D92C91E15D00D9036A /* DotaStatusTests.swift */,
 			);
 			path = DotaStatusTests;
+			sourceTree = "<group>";
+		};
+		18B611E32C91E5B600D9036A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18B611E42C91E5E000D9036A /* SearchView.swift */,
+				18B611F12C9214D500D9036A /* PerfilPlayerView.swift */,
+				18B611EC2C91F03800D9036A /* ListPlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B611E62C91EAAF00D9036A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B611E72C91EAD800D9036A /* DotaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B611E92C91EB2D00D9036A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B611EA2C91EB5C00D9036A /* DotaResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B611EE2C91F45100D9036A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				18B611EF2C91F47F00D9036A /* PlayerCell.swift */,
+				18B611F32C9225B900D9036A /* MedalView.swift */,
+				18B611F52C92280600D9036A /* MatchesView.swift */,
+				18B611F72C922C4900D9036A /* WinRateView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B611CA2C91E15B00D9036A /* ContentView.swift in Sources */,
+				18B611F42C9225B900D9036A /* MedalView.swift in Sources */,
+				18B611E52C91E5E000D9036A /* SearchView.swift in Sources */,
+				18B611F02C91F48000D9036A /* PlayerCell.swift in Sources */,
+				18B611F22C9214D500D9036A /* PerfilPlayerView.swift in Sources */,
+				18B611EB2C91EB5C00D9036A /* DotaResponse.swift in Sources */,
+				18B611F62C92280600D9036A /* MatchesView.swift in Sources */,
+				18B611E82C91EAD800D9036A /* DotaViewModel.swift in Sources */,
 				18B611C82C91E15B00D9036A /* DotaStatusApp.swift in Sources */,
+				18B611ED2C91F03800D9036A /* ListPlayerView.swift in Sources */,
+				18B611F82C922C4A00D9036A /* WinRateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

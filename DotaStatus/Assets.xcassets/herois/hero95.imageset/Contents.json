@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Troll_Warlord_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

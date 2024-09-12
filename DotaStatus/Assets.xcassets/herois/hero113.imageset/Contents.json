@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Arc_Warden_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

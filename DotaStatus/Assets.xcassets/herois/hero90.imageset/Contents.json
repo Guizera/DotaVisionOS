@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Keeper_of_the_Light_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

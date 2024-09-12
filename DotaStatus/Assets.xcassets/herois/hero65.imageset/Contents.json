@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Batrider_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

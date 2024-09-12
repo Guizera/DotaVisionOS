@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Ancient_Apparition_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

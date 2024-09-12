@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "noRank.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Dark_Willow_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

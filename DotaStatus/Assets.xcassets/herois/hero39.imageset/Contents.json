@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Queen_of_Pain_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

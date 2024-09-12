@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Naga_Siren_minimap_icon.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
